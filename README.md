@@ -30,8 +30,8 @@ class Desenvolvedor
         ];
     }
 }
-```
 $desenvolvedor = new Desenvolvedor();
+```
 
   <a href="https://github.com/Dan1elz">
     <img  align="center" height="140em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dan1elz&layout=compact&langs_count=6&theme=tokyonight"/> <br>
