@@ -1,8 +1,37 @@
 # Ola! meu nome é Daniel Zanni!
 
-- 🏫 Técnico em Desenvolvimento de Sistemas
-- 🎓 Graduando Análise e Desenvolvimento de Sistemas
-- 🤓 Aprendendo C# .NET e Laravel
+```php
+class Desenvolvedor
+{
+    public string $nome;
+    public string $email;
+    public int $idade;
+    public array $redes_sociais = [];
+    public array $conhecimentos = [];
+    public array $formacoes_academicas = [];
+
+    public function __construct()
+    {
+        $this->nome = "Daniel Zanni";
+        $this->email = "danielzanni07@gmail.com";
+        $this->idade = 18;
+        $this->redes_sociais = [
+            "instagram" => "https://www.instagram.com/daniel_zanni/",
+            "linkedin" => "https://www.linkedin.com/in/daniel-zanni/",
+        ];
+        $this->conhecimentos = [
+            "frontend" => ["HTML", "CSS", "JavaScript", "Bootstrap"],
+            "backend" => ["PHP", "Laravel", "C#"],
+            "database" => "MySQL",
+        ];
+        $this->formacoes_academicas = [
+            "graduação" => "Graduando Análise e Desenvolvimento de Sistemas",
+            "ensino_tecnico" => "Técnico em Desenvolvimento de Sistemas",
+        ];
+    }
+}
+```
+$desenvolvedor = new Desenvolvedor();
 
   <a href="https://github.com/Dan1elz">
     <img  align="center" height="140em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dan1elz&layout=compact&langs_count=6&theme=tokyonight"/> <br>
