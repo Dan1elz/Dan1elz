@@ -32,7 +32,7 @@ class Desenvolvedor
     {
         $this->nome = "Daniel Zanni";
         $this->email = "danielzanni07@gmail.com";
-        $this->idade = 18;
+        $this->idade = 19;
         $this->redes_sociais = [
             "instagram" => "https://www.instagram.com/daniel_zanni/",
             "linkedin" => "https://www.linkedin.com/in/daniel-zanni/",
@@ -40,7 +40,7 @@ class Desenvolvedor
         $this->conhecimentos = [
             "frontend" => ["HTML", "CSS", "JavaScript", "Angular", "Bootstrap"],
             "backend" => ["PHP", "Laravel", "C#"],
-            "database" => "MySQL",
+            "database" => ["MySQL","SQL Server","SQLite],
         ];
         $this->formacoes_academicas = [
             "graduação" => "Graduando Análise e Desenvolvimento de Sistemas",
