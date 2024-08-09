@@ -40,7 +40,7 @@ class Desenvolvedor
         $this->conhecimentos = [
             "frontend" => ["HTML", "CSS", "JavaScript", "Angular", "Bootstrap"],
             "backend" => ["PHP", "Laravel", "C#"],
-            "database" => ["MySQL","SQL Server","SQLite],
+            "database" => ["MySQL","SQL Server","SQLite"],
         ];
         $this->formacoes_academicas = [
             "graduação" => "Graduando Análise e Desenvolvimento de Sistemas",
