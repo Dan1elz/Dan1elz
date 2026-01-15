@@ -55,7 +55,7 @@ class Desenvolvedor
     ];
 
     public array $conhecimentos = [
-        "Frontend" => ["HTML", "CSS", "JavaScript", "TypeScript", "Angular", "ReactJS", "Vue", "Bootstrap", "Tailwind"],
+        "Frontend" => ["HTML", "CSS", "JavaScript", "TypeScript", "Angular", "ReactJS", "Vue", "Bootstrap", "Tailwind", "ShadCn"],
         "Backend"  => ["PHP", "Laravel", "C#", "Java Spring"],
         "Banco de Dados" => ["MySQL", "SQL Server", "PostgreSQL", "SQLite"],
     ];
